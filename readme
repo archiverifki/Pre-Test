@@ -1,0 +1,27 @@
+# Instruksi
+
+Berikut adalah langkah-langkah untuk menjalankan dan melihat hasil jawaban dari tugas:
+
+## Langkah 1: Persiapan Awal
+
+Pastikan lingkungan pengembangan Laravel yang sudah terinstal.
+
+## Langkah 2: Menginstal Proyek
+
+Clone repositori ini ke komputer atau download sebagai ZIP.
+
+## Langkah 3: Migrasi Database
+
+Jalankan perintah berikut untuk menjalankan migrasi database dan membuat tabel-tabel yang diperlukan sesuai pertanyaan:
+
+```bash
+php artisan migrate
+
+```
+
+## Langkah 4: Running Project
+
+Buka browser
+http://localhost:8000/
+
+untuk melihat ringkasan profesi akses http://localhost:8000/ringkasan-profesi untuk melihat hasil ringkasan data profesi.
