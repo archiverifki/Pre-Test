@@ -21,6 +21,8 @@
                 <th>Jalan</th>
                 <th>Email</th>
                 <th>Profesi</th>
+                <th>Md5</th>
+
 
 
 
@@ -34,6 +36,9 @@
                 <td>{{ $user['nama_jalan'] }}</td>
                 <td>{{ $user['email'] }}</td>
                 <td>{{ $user->profesi['profesi'] }}</td>
+                {{-- <td>{{ $user->plain_json['result']}}<td> --}}
+                @dd($user->json);
+
 
 
 
